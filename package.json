@@ -1,0 +1,25 @@
+{
+  "name": "ai_tutor_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariiaHolinko/ItsEasy_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariiaHolinko/ItsEasy_Automation/issues"
+  },
+  "homepage": "https://github.com/MariiaHolinko/ItsEasy_Automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
