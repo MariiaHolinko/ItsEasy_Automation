@@ -1,8 +1,13 @@
 {
   "name": "ai_tutor_project",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "login": "node helpers/loginSetup.js",
+  "test": "npx playwright test"
+  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MariiaHolinko/ItsEasy_Automation.git"

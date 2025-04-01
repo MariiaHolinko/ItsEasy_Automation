@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "NEXT_LOCALE",
+      "value": "en",
+      "domain": "it-tutor.ai",
+      "path": "/",
+      "expires": 1775070688.663267,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cookieUserID",
+      "value": "68",
+      "domain": "it-tutor.ai",
+      "path": "/",
+      "expires": 1778094690.312507,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jwt",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NjgsImlhdCI6MTc0MzUzNDY5MCwiZXhwIjoxNzUyMTc0NjkwfQ.LOv5KldQEBaNhckBMz02IbVslBJNZb23EIvjwWjESHc",
+      "domain": "it-tutor.ai",
+      "path": "/",
+      "expires": 1778094690.313032,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://it-tutor.ai",
+      "localStorage": [
+        {
+          "name": "UserID",
+          "value": "68"
+        }
+      ]
+    }
+  ]
+}

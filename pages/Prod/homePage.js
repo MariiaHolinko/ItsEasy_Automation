@@ -1,9 +1,29 @@
+import { expect } from '@playwright/test';
 export class HomePage {
     constructor(page) {
         this.page = page;
-        this.avatar = page.locator('.Usermenu_userAvatar__wbWtD');
-        this.loginLink = page.getByText('Login');
-        this.allCoursesLink = page.getByRole('link', { name: 'All Courses', exact: true })
+        this.avatar = page.locator('.Usermenu_userAvatar__7Gn7E');
+        this.loginLink = page.locator('div').filter({ hasText: /^Login$/ });
+        this.allCoursesLink = page.getByRole('link', { name: 'All Courses', exact: true });
+        this.myCoursesLink = page.getByText('My Courses');
+    }
+
+    async isLoggedIn() {
+        await expect (this.avatar).toBeVisible({ timeout: 5000 });
+        await expect(this.avatar).not.toHaveText('?');
+    }
+    
+    
+    async clickLoginlink() {
+        await this.loginLink.click();
+    }
+
+    async clickAvatar() {
+        await this.avatar.click({ force: true });
+    }
+
+    async clickMyCoursesLink() {
+        await this.myCoursesLink.click();
     }
 
     async clickAllCoursesLink() {
