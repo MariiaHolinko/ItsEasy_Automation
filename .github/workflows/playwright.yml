@@ -21,6 +21,10 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
+      - name: Run login script to generate storageState.json
+        run: npm run login
+
+
       - name: Run Playwright tests
         run: npx playwright test
 

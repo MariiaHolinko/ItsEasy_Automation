@@ -5,7 +5,7 @@
       "value": "en",
       "domain": "it-tutor.ai",
       "path": "/",
-      "expires": 1775070688.663267,
+      "expires": 1775107051.973127,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -15,17 +15,17 @@
       "value": "68",
       "domain": "it-tutor.ai",
       "path": "/",
-      "expires": 1778094690.312507,
+      "expires": 1778131057.299626,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "jwt",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NjgsImlhdCI6MTc0MzUzNDY5MCwiZXhwIjoxNzUyMTc0NjkwfQ.LOv5KldQEBaNhckBMz02IbVslBJNZb23EIvjwWjESHc",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NjgsImlhdCI6MTc0MzU3MTA1NywiZXhwIjoxNzUyMjExMDU3fQ.mED518-IoHtG5VAtN1HY0dm5oIPxPghnwU60D8PMz8A",
       "domain": "it-tutor.ai",
       "path": "/",
-      "expires": 1778094690.313032,
+      "expires": 1778131057.299881,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"

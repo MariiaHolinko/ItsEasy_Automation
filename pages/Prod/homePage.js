@@ -2,7 +2,7 @@ import { expect } from '@playwright/test';
 export class HomePage {
     constructor(page) {
         this.page = page;
-        this.avatar = page.locator('.Usermenu_userAvatar__7Gn7E');
+        this.avatar = page.locator('[class*="Usermenu_userAvatarWrapper"] [class*="Usermenu_userAvatar"]');
         this.loginLink = page.locator('div').filter({ hasText: /^Login$/ });
         this.allCoursesLink = page.getByRole('link', { name: 'All Courses', exact: true });
         this.myCoursesLink = page.getByText('My Courses');
