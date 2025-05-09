@@ -23,3 +23,4 @@ test.beforeEach(async ({ page, HomePage }) => {
       await expect(page).toHaveURL(/.*my-courses/);
     });
   });
+)
